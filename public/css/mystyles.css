@@ -1,0 +1,42 @@
+.amazon-button-primary{
+    background: linear-gradient(360deg, #EFC25C 9.31%, #F8E7C1 100%);
+    border: 1px solid #9C7E37
+}
+
+.amazon-button-secondary{
+    background: linear-gradient(360deg, #ECECEC 9.31%, #F9F9F9 100%);
+    border: 1px solid #A5A5A5;
+}
+
+
+.amazon-new{
+    line-height: 0.5;
+    display:inline-block;
+    position: relative;
+}
+
+.amazon-new span{
+    display: inline-block;
+    position: relative;
+}
+
+.amazon-new span::before,
+.amazon-new span::after{
+    
+    content:"";
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px solid black;
+    top: 0;
+    width: 80%;
+}
+
+.amazon-new span::before{
+    right: 105%;
+    margin-right: 0;
+}
+
+.amazon-new span::after{
+    left: 105%;
+    margin-left: 25;
+}
