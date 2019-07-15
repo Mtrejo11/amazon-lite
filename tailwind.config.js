@@ -24,7 +24,8 @@ module.exports = {
         600: '#718096',
         700: '#4a5568',
         800: '#2d3748',
-        900: '#1a202c'
+        900: '#1a202c',
+        custom: '#E5E5E5',
       },
       red: {
         100: '#fff5f5',
@@ -124,7 +125,8 @@ module.exports = {
         700: '#b83280',
         800: '#97266d',
         900: '#702459'
-      }
+      },
+      search: '#FCBC70',
     },
     spacing: {
       px: '1px',
@@ -142,12 +144,18 @@ module.exports = {
       '16': '4rem',
       '20': '5rem',
       '24': '6rem',
+      '28': '7rem',
       '32': '8rem',
       '40': '10rem',
+      '44': '11rem',
       '48': '12rem',
       '56': '14rem',
       '64': '16rem',
-      '128': '32rem'
+      '68': '18rem',
+      '72': '24rem',
+      '128': '32rem',
+      '180': '34rem',
+      '256': '50rem',
     },
     backgroundColor: theme => theme('colors'),
     backgroundPosition: {
@@ -259,6 +267,7 @@ module.exports = {
       ]
     },
     fontSize: {
+      xxs: '0.6rem',
       xs: '0.75rem',
       sm: '0.875rem',
       base: '1rem',
@@ -286,7 +295,8 @@ module.exports = {
       auto: 'auto',
       ...theme('spacing'),
       full: '100%',
-      screen: '100vh'
+      screen: '100vh',
+      custom: '90vh',
     }),
     inset: {
       '0': '0',
@@ -320,7 +330,7 @@ module.exports = {
     }),
     maxHeight: {
       full: '100%',
-      screen: '100vh'
+      screen: '100vh',
     },
     maxWidth: {
       xs: '20rem',

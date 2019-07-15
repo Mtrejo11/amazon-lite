@@ -28,7 +28,7 @@
     height: 5px;
     border-bottom: 1px solid black;
     top: 0;
-    width: 80%;
+    width: 70%;
 }
 
 .amazon-new span::before{
@@ -39,4 +39,8 @@
 .amazon-new span::after{
     left: 105%;
     margin-left: 25;
+}
+
+.img-background{
+    background-image: url('../images/background.png')
 }

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Nano Studio</title>
+    <link rel="stylesheet" href="./public/css/app.css" />
+    <link rel="stylesheet" href="./public/css/mystyles.css">
+    <script src="./public/js/app.js"></script>
+</head>
+
+<body class="font-sans text-base font-medium">
+    <div class="flex items-center justify-center container mx-auto h-full ">
+        <div class="my-20">
+
+            <img src="./resources/images/amazon-logo.png" class="mx-auto mb-10" alt="">
+            <div class="w-128 border px-8 py-6 rounded">
+                <h2 class="font-semibold text-4xl">Iniciar Sesión</h2>
+                <div class="w-72">
+
+                    <label class="leading-none ">Dirección de correo electrónico o número de teléfono móvil</label>
+                </div>
+                <input type="text" class="border w-full h-8 mb-8 rounded">
+                <div class="flex w-full justify-between">
+
+                    <label for="">Contraseña</label>
+                    <a href=""> <span class="text-blue-700">¿Olvidaste tu contraseña?</span></a>
+                </div>
+                <input type="password" class="border w-full h-8 mb-8 rounded">
+                <div class="w-full flex justify-center mb-4">
+
+                    <button class="border rounded w-full h-8 amazon-button-primary font-semibold">Iniciar
+                        Sesión</button>
+                </div>
+                <p class="mb-4 text-sm">Al continuar, aceptas las <span class="text-blue-400"> Condiciones de uso
+                    </span> y el <span class="text-blue-400"> Aviso de privacidad </span> de Amazon.</p>
+                <div class="flex-column items-center justify-center">
+
+                    <input class="mr-2 leading-tight mb-6" type="checkbox" id="remind"> <label for="remind"
+                        class="cursor-pointer">Recuérdame.</label> <span class="text-blue-400">Detalles</span>
+                </div>
+                <div class="w-full text-center mb-2 opacity-50">
+
+                    <p class="amazon-new "><span> ¿Eres nuevo en Amazon </span></p>
+                </div>
+
+                <button class="rounded w-full h-8 amazon-button-secondary mb-2  font-semibold">Crea tu cuenta de
+                    Amazon</button>
+            </div>
+        </div>
+    </div>
+    <footer class="flex justify-center items-center bg-gray-100 h-32">
+        <div class="w-128 flex-column ">
+            <div class="flex justify-between text-blue-400">
+                <p>Condiciones de uso</p>
+                <p>Aviso de privacidad</p>
+                <p>Ayuda</p>
+            </div>
+            <div class="flex justify-center mt-4">
+
+                &copy; <p>1996-2019, Amazon.com,Inc. o sus filiales</p>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
