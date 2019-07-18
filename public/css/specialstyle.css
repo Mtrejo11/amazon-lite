@@ -1,0 +1,50 @@
+.select-size  input{
+  display: none;
+}
+
+.select-size-special  input{
+    display: none;
+  }
+.label-first {
+  display: inline-block;
+  
+  
+  height: 25px;
+  text-align: center;
+  border: 1px solid #ddd;
+  line-height: 20px;
+  cursor: pointer
+}
+
+.label-special {
+    display: inline-block;
+
+    height: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+    line-height: 20px;
+    cursor: pointer
+  }
+
+#small:checked ~ label[for="small"],
+#medium:checked ~ label[for="medium"],
+#large:checked ~ label[for="large"],
+#x-large:checked ~ label[for="x-large"],
+#xx-large:checked ~ label[for="xx-large"],
+#xxx-large:checked ~ label[for="xxx-large"],
+#xxxx-large:checked ~ label[for="xxxx-large"]  {
+  background: #FFE9D0;
+  border-color: #EBA076;
+  color: black;
+  font-weight: bold;
+}
+ 
+
+#first-sheet:checked ~ label[for="first-sheet"],
+#second-sheet:checked ~ label[for="second-sheet"],
+#third-sheet:checked ~ label[for="third-sheet"],
+#fourth-sheet:checked ~ label[for="fourth-sheet"]  {
+  background: #FFE9D0;
+  border-color: #EBA076;
+
+}

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Amazon - Lite</title>
+    <link rel="stylesheet" href="./public/css/app.css" />
+    <link rel="stylesheet" href="./public/css/mystyles.css">
+    <link rel="stylesheet" href="./public/css/specialstyle.css">
+    <link rel="stylesheet" type="text/css" href="./resources/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./resources/slick/slick-theme.css" />
+    <link rel="stylesheet" href="./public/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+    <script src="./public/js/app.js"></script>
+    <script src="./resources/js/functions.js"></script>
+</head>
+
+<body class="text-base font-sm">
+    <nav class="flex bg-gray-900 py-4 justify-between w-full">
+        <div class="flex flex-wrap content-between items-center  justify-between px-16 w-1/5">
+            <img src="./resources/images/amazon-white-logo.png" class="w-32" alt="">
+            <div class="flex w-32 items-center">
+                <img src="./resources/images/icon/action/place_24px.png" class="w-8" alt="">
+                <p class="text-white text-xs font-normal">Enviar a <br> <span class="font-bold">El salvador</span></p>
+            </div>
+        </div>
+
+        <div class="flex flex-wrap w-3/5 content-between px-2">
+            <div class="flex justify-center w-full">
+                <div class="inline-block relative w-24 text-sm">
+                    <select id="select-box"
+                        class="block appearance-none w-full cursor-pointer bg-gray-300 border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded rounded-r-none leading-tight focus:outline-none focus:shadow-outline">
+                    </select>
+                    <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                        <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                        </svg>
+                    </div>
+                </div>
+                <input type="text" class="w-180">
+                <div class="flex cursor-pointer items-center justify-center bg-search w-10 rounded-r">
+                    <img src="./resources/images/icon/action/search_24px.png" class="w-6" alt="">
+                </div>
+            </div>
+            <div class="text-sm flex justify-between items-center font-light w-full text-white ">
+                <div class="inline-block relative w-32 text-sm ">
+                    <select id="departamentos"
+                        class="block appearance-none w-full cursor-pointer font-semibold bg-transparent py-1 leading-tight focus:outline-none focus:shadow-outline">
+                    </select>
+                    <div
+                        class="pointer-events-none absolute inset-y-0 right-0 bottom-0 flex items-center px-2 text-gray-700">
+                        <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                        </svg>
+                    </div>
+                </div>
+                <p>Ofertas del día</p>
+                <p>Tu amazon.com</p>
+                <p>Tarjetas de Regalo</p>
+                <p>Ayuda</p>
+                <p>Listas</p>
+                <p>Vender</p>
+            </div>
+        </div>
+        <div class="flex flex-wrap content-between items-center h-24 w-1/4 text-white px-5">
+            <div>
+
+                <p class="text-white text-sm">Servicio al Cliente 24/7. Más información</p>
+            </div>
+            <div class="flex items-center w-full text-xs pr-6">
+                <div class="w-2/4">
+                    <p class="text-xxs">Hola, Indentifícate</p>
+                    <p>Cuenta y Listas</p>
+                </div>
+                <div class="w-1/4">
+                    <p>Pedidos</p>
+                </div>
+                <div class="flex w-1/4 items-center">
+                    <img src="./resources/images/cart.png" alt="">
+                    <p>Carrito</p>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <section class="flex w-srceen py-10">
+        <div class="flex w-3/4  ">
+            <div class="flex items-start justify-center w-2/5">
+                <img src="./resources/images/sheets.png" class="w-4/5" alt="">
+
+            </div>
+            <div class="w-3/5 ">
+                <p class="font-semibold mb-2">Juego de sábana de cama Mellanni, microfibra cepillada de alta calidad,
+                    impreso, bolsillo profundo,
+                    antiarrugas, resistente al desgaste y a las manchas, hipoalergénico, 4 piezas, Microfibra, Celeste
+                    (Baby Blue), gemelo</p>
+                <p class="text-sm mb-4">de <span class="text-blue-600 font-medium">Mellanni</span></p>
+                <div class="flex items-center ">
+                    <div class="text-amazon text-yellow-amazon ">
+                        <span class="icon-star "></span><span class="icon-star"></span><span
+                            class="icon-star"></span><span class="icon-star"></span><span
+                            class="icon-star-empty"></span>
+                    </div>
+                    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                        <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                    </svg>
+                    <span class="pl-2 text-gray-700"></span>
+                    <span class="text-blue-600 font-medium text-sm">55,998 opiniones de clientes <span
+                            class="text-gray-700 ">|</span> más de 1000+ preguntas respondidas</span>
+                </div>
+                <div class="w-full h-divider bg-gray-200 my-5"></div>
+                <p class="font-medium text-sm"><span class="text-green-600">Disponible a través</span> de <span
+                        class="text-blue-600">estos vendedores</span></p>
+                <p class="text-xs font-semibold mb-4"><span class="font-hairline text-xxs text-gray-600">Tamaño:
+                    </span><span id="tamanio">Twin</span>
+                </p>
+                <div class="relative flex select-size items-start w-full text-xs mb-4">
+                    <input type="radio" name="s-size" class="mx-10" id="small" checked />
+                    <input type="radio" name="s-size" id="medium" />
+                    <input type="radio" name="s-size" id="large" />
+                    <input type="radio" name="s-size" id="x-large" />
+                    <input type="radio" name="s-size" id="xx-large" />
+                    <input type="radio" name="s-size" id="xxx-large" />
+                    <input type="radio" name="s-size" id="xxxx-large" />
+
+                    <label for="small" value="Twin" class="mr-2 px-2 label-first">Twin</label>
+                    <label for="medium" value="TwinXL" class="mr-2 px-2 label-first">TwinXL</label>
+                    <label for="large" value="Full" class="mr-2 px-2 label-first">Full</label>
+                    <label for="x-large" value="Queen" class="mr-2 px-2 label-first">Queen</label>
+                    <label for="xx-large" value="King" class="mr-2 px-2 label-first">King</label>
+                    <label for="xxx-large" value="CaliforniaKing" class="mr-2 px-2 label-first">CaliforniaKing</label>
+                    <label for="xxxx-large" value="SplitKing" class="mr-2 px-2 label-first">SplitKing</label>
+                </div>
+                <p class="text-xs font-semibold mb-4"><span class="font-hairline text-xxs text-gray-600">Color:
+                    </span><span id="sheet-color">Blue Hydrangea</span>
+                </p>
+                <div class="relative flex select-size items-start w-full text-xs mb-4">
+                    <input type="radio" name="s-size-special" id="first-sheet" />
+                    <input type="radio" name="s-size-special" id="second-sheet" />
+                    <input type="radio" name="s-size-special" id="third-sheet" />
+                    <input type="radio" name="s-size-special" id="fourth-sheet" />
+
+                    <label for="first-sheet" value="BlueHydrangea" class="mr-2 label-special"><img
+                            src="./resources/images/detail-screen/image-1.png" class="w-full h-full" alt=""></label>
+                    <label for="second-sheet" value="Brown" class="mr-2 label-special"><img
+                            src="./resources/images/detail-screen/image.png" class="w-full h-full" alt=""></label>
+                    <label for="third-sheet" value="Black" class="mr-2 label-special"><img
+                            src="./resources/images/detail-screen/image 2.png" class="w-full h-full" alt=""></label>
+                    <label for="fourth-sheet" value="Blue" class="mr-2 label-special"><img
+                            src="./resources/images/detail-screen/image 3.png" class="w-full h-full" alt=""></label>
+                </div>
+                <ul id="caracteristicas-producto" class="list-disc text-sm mb-4">
+
+                </ul>
+                <p class="font-medium text-blue-600">Comparar con artículos similares</p>
+
+            </div>
+        </div>
+        <div class="w-1/4  p-10">
+            <div class="w-full h-full border p-6">
+                <div class=" flex items-center mb-4">
+                    <input id="radio1" type="radio" class="mr-2" name="radio" />
+                    <label for="radio1"><span class="text-sm font-medium">Nuevo</span></label>
+                </div>
+                <p class="text-xs mb-4">Este artículo no se envía a <span class="font-medium"> San Salvador, El
+                        Salvador.</span> Verifica otros vendedores que puedan hacer
+                    envios internacionales. <span class="text-blue-600"> Más información</span></p>
+                <span class="text-green-500 text-sm mb-4">Disponible</span>
+                <div class="flex text-sm  amazon-button-secondary rounded px-4 ">
+                    <span>Cantidad: </span>
+
+                    <select id="select-quantity"
+                        class=" cursor-pointerborder  amazon-button-secondary border-none px-4  pr-8 rounded  leading-tight focus:outline-none focus:shadow-outline">
+
+                    </select>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="w-full">
+        <button class="w-full bg-gray-800 text-white py-2 text-sm">Inicio de página</button>
+    </div>
+    <footer class="flex-column text-white font-thin text-sm bg-gray-900 pb-4">
+        <div class="flex w-full py-6 px-10">
+            <div id="div-meet" class=" px-10 w-1/4">
+
+            </div>
+            <div id="div-win" class="px-10 w-1/4">
+
+            </div>
+            <div id="div-pay" class=" px-10 w-1/4">
+
+            </div>
+            <div id="div-help" class=" px-10 w-1/4">
+
+            </div>
+        </div>
+
+        <div class="flex w-full justify-center">
+            <img src="./resources/images/amazon-white-logo.png" class="w-24" alt="">
+        </div>
+    </footer>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./resources/slick/slick.min.js"></script>
+</body>
+
+</html>
