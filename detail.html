@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./public/css/mystyles.css">
     <link rel="stylesheet" type="text/css" href="./resources/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="./resources/slick/slick-theme.css" />
-
+    <link rel="stylesheet" href="./public/css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 
@@ -18,7 +18,7 @@
     <script src="./resources/js/functions.js"></script>
 </head>
 
-<body class="text-base font-medium  bg-gray-300">
+<body class="text-base font-sm">
     <nav class="flex bg-gray-900 py-4 justify-between w-full">
         <div class="flex flex-wrap content-between items-center  justify-between px-16 w-1/5">
             <img src="./resources/images/amazon-white-logo.png" class="w-32" alt="">
@@ -37,7 +37,7 @@
                     <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
                         <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                             <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                            </svg>
+                        </svg>
                     </div>
                 </div>
                 <input type="text" class="w-180">
@@ -54,7 +54,7 @@
                         class="pointer-events-none absolute inset-y-0 right-0 bottom-0 flex items-center px-2 text-gray-700">
                         <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                             <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                            </svg>
+                        </svg>
                     </div>
                 </div>
                 <p>Ofertas del día</p>
@@ -86,6 +86,114 @@
 
         </div>
     </nav>
+    <div class="flex justify-between w-full text-sm shadow px-10 py-2">
+        <p>1 a 48 de 135 resultados para Moda para todos: Zapatos</p>
+        <div class="inline-block relative">
+            <select id="order-by"
+                class="block appearance-none  w-64 cursor-pointer text-black amazon-button-secondary px-4 rounded  font-semibold bg-transparent py-1 leading-tight focus:outline-none focus:shadow-outline">
+            </select>
+            <div class="pointer-events-none absolute inset-y-0 right-0 bottom-0 flex items-center px-2 text-gray-700">
+                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                </svg>
+            </div>
+        </div>
+    </div>
+    <section class="w-full flex px-5">
+        <div class="w-3/12 text-xs py-5">
+            <h3 class="font-semibold">Departamentos</h3>
+            <p class="text-gray-700 mb-4">
+                Moda para Mujer</p>
+            <h4 class=" pl-3 font-semibold">Zapatos</h4>
+            <div class="pl-5 text-gray-700 mb-4">
+                <p>Deportes</p>
+                <p>Tenis de Moda</p>
+                <p>Zapatos Bajos</p>
+                <p>Mocasines y Zapatos sin Talón</p>
+                <p>Nuevos</p>
+                <p>Exteriores</p>
+                <p>Zapatilas</p>
+                <p>Sandalias</p>
+                <p>Pantuflas</p>
+            </div>
+            <div class="mb-4">
+                <h3 class="font-semibold">Opinión media de los clientes</h3>
+                <div class="text-amazon text-yellow-amazon pl-5">
+                    <span class="icon-star "></span><span class="icon-star"></span><span class="icon-star"></span><span
+                        class="icon-star"></span><span class="icon-star-empty"></span><span class="pl-3 text-gray-700">o
+                        más</span>
+                </div>
+                <div class="text-amazon text-yellow-amazon pl-5">
+                    <span class="icon-star "></span><span class="icon-star"></span><span class="icon-star"></span><span
+                        class="icon-star-empty"></span><span class="icon-star-empty"></span><span
+                        class="pl-3 text-gray-700">o
+                        más</span>
+                </div>
+                <div class="text-amazon text-yellow-amazon pl-5">
+                    <span class="icon-star  "></span><span class="icon-star"></span><span
+                        class="icon-star-empty"></span><span class="icon-star-empty"></span><span
+                        class="icon-star-empty"></span><span class="pl-3 text-gray-700">o
+                        más</span>
+                </div>
+                <div class="text-amazon text-yellow-amazon pl-5">
+                    <span class="icon-star "></span><span class="icon-star-empty"></span><span
+                        class="icon-star-empty"></span><span class="icon-star-empty"></span><span
+                        class="icon-star-empty"></span><span class="pl-3 text-gray-700">o
+                        más</span>
+                </div>
+            </div>
+            <div class="mb-4">
+                <h3 class="font-semibold">Moda de Amazon</h3>
+                <div class="flex items-center ml-5">
+                    <input type="checkbox" id="best-brands" value="best-brands"><label class="text-gray-700 ml-2"
+                        for="best-brands">Mejores Marcas</label>
+                </div>
+            </div>
+            <div class="mb-4">
+                <h3 class="font-semibold">Marca</h3>
+                <div class="flex items-center ml-5">
+                    <input type="checkbox" id="best-brands" value="best-brands"><label class="text-gray-700 ml-2"
+                        for="best-brands">Caramella Bubble</label>
+                </div>
+                <div class="flex items-center ml-5">
+                    <input type="checkbox" id="best-brands2" value="best-brands"><label class="text-gray-700 ml-2"
+                        for="best-brands2">DLGJPA</label>
+                </div>
+                <div class="flex items-center ml-5">
+                    <input type="checkbox" id="best-brands3" value="best-brands"><label class="text-gray-700 ml-2"
+                        for="best-brands3">Gracosy</label>
+                </div>
+                <div class="flex items-center ml-5">
+                    <input type="checkbox" id="best-brands4" value="best-brands"><label class="text-gray-700 ml-2"
+                        for="best-brands4">Herstyle</label>
+                </div>
+                <div class="flex items-center ml-5">
+                    <input type="checkbox" id="best-brands5" value="best-brands"><label class="text-gray-700 ml-2"
+                        for="best-brands5">Adidas </label>
+                </div>
+                <div class="flex items-center ml-5">
+                    <input type="checkbox" id="best-brands6" value="best-brands"><label class="text-gray-700 ml-2"
+                        for="best-brands6">Luoika </label>
+                </div>
+                <span class="text-blue-500">Ver más</span>
+            </div>
+            <div class="mb-4">
+                <h3 class="font-semibold">Precio</h3>
+                <div class="text-gray-700 pl-5">
+                    <p>Menos de $25</p>
+                    <p>$25 a $50</p>
+                    <p>$50 a $100</p>
+                    <p>$100 a $200</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex flex-wrap py-4  w-9/12 " id="sheets">
+ 
+        </div>
+
+
+    </section>
 
     <div class="w-full">
         <button class="w-full bg-gray-800 text-white py-2 text-sm">Inicio de página</button>
