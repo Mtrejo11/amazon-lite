@@ -229,7 +229,7 @@ $(document).ready(function () {
 
 
     detail_products.forEach(element => {
-        sheet_product += '<div class="flex flex-wrap mr-2 justify-center w-48 px-4 pt-2 pb-8 border-b border-gray-400">' +
+        sheet_product += '<a href="item.html"><div class="flex flex-wrap mr-2 justify-center w-48 h-72 px-4 pt-2 pb-8 border-b border-gray-400">' +
             '<img src="./resources/images/sabanas.png" alt="">' +
             ' <p class="text-xs font-bold mb-2">' + element.description + '</p>' +
             '<div class="flex text-amazon text-yellow-amazon "><span class="icon-star "></span><span class="icon-star">' +
@@ -237,7 +237,7 @@ $(document).ready(function () {
             '<path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /></svg><span class="text-blue-500 text-xxs">' + element.views +
             '</span></div>' +
             element.prices +
-            element.extra + '</div>'
+            element.extra + '</div></a>'
     });
     $('#sheets').html(sheet_product);
 

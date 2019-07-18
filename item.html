@@ -20,9 +20,9 @@
 </head>
 
 <body class="text-base font-sm">
-    <nav class="flex bg-gray-900 py-4 justify-between w-full">
+    <nav class="flex bg-gray-900 py-4 justify-between w-full" id="nav-bar">
         <div class="flex flex-wrap content-between items-center  justify-between px-16 w-1/5">
-            <img src="./resources/images/amazon-white-logo.png" class="w-32" alt="">
+            <a href="index.html"> <img src="./resources/images/amazon-white-logo.png" class="w-32" alt=""></a>
             <div class="flex w-32 items-center">
                 <img src="./resources/images/icon/action/place_24px.png" class="w-8" alt="">
                 <p class="text-white text-xs font-normal">Enviar a <br> <span class="font-bold">El salvador</span></p>
@@ -161,7 +161,7 @@
             </div>
         </div>
         <div class="w-1/4  p-10">
-            <div class="w-full h-full border p-6">
+            <div class="w-full border p-6">
                 <div class=" flex items-center mb-4">
                     <input id="radio1" type="radio" class="mr-2" name="radio" />
                     <label for="radio1"><span class="text-sm font-medium">Nuevo</span></label>
@@ -170,20 +170,62 @@
                         Salvador.</span> Verifica otros vendedores que puedan hacer
                     envios internacionales. <span class="text-blue-600"> Más información</span></p>
                 <span class="text-green-500 text-sm mb-4">Disponible</span>
-                <div class="flex text-sm  amazon-button-secondary rounded px-4 ">
+                <div class="flex text-sm mt-4 amazon-button-secondary rounded px-4 mb-4">
                     <span>Cantidad: </span>
 
                     <select id="select-quantity"
-                        class=" cursor-pointerborder  amazon-button-secondary border-none px-4  pr-8 rounded  leading-tight focus:outline-none focus:shadow-outline">
+                        class=" cursor-pointer border  amazon-button-secondary border-none px-4  pr-8 rounded  leading-tight focus:outline-none focus:shadow-outline">
 
                     </select>
+                </div>
+                <div class="flex amazon-button-primary rounded p-1 mb-4 cursor-pointer">
+                    <div class="flex items-center justify-center bg-black w-1/5 h-full p-1 rounded">
+                        <img src="./resources/images/detail-screen/local_grocery_store_24px.png" class="w-full" alt="">
+                    </div>
+                    <div class="flex w-4/5 justify-center items-center text-sm font-semibold ">
+                        <p>Agregar al carrito</p>
+                    </div>
+                </div>
+                <div class="flex amazon-button-primary rounded p-1 mb-4 h-10 cursor-pointer">
+                    <div class="flex items-center justify-center bg-black w-1/5 h-full p-3 rounded">
+                        <img src="./resources/images/detail-screen/arrow_right_24px.png" class="w-full" alt="">
+                    </div>
+                    <div class="flex w-4/5 justify-center items-center text-sm font-semibold ">
+                        <p>Compra ahora</p>
+                    </div>
+                </div>
+                <p class="text-xs mb-4">Vendido y enviado por Amazon.com</p>
+                <p class="text-xs mb-4">Se puede envolver para regalo.</p>
+                <div class="flex items-center">
+                    <img src="./resources/images/icon/action/place_black.png" alt="">
+                    <p class="text-blue-600 text-xs ml-2">Enviar a Luis - San Salvador 1101</p>
+                </div>
+            </div>
+            <div class=" flex justify-between bg-gray-300 items-center rounded-b  py-3 px-5">
+                <div>
+                    <input id="radio2" type="radio" class="mr-2" name="radio" />
+                    <label for="radio2"><span class="text-sm ">Usado: </span></label>
+                </div>
+                <p class="text-gray-600 text-xs">US$ 5.50</p>
+            </div>
+            <div class="w-full h-divider bg-gray-200 my-5"></div>
+
+            <div class="flex amazon-button-secondary font-medium text-sm rounded cursor-pointer">
+                <div class="w-4/5 flex justify-center items-center p-2">
+                    <p>Agregar a la lista</p>
+                </div>
+                <div class="w-1/5 flex justify-center items-center p-2 border-l border-gray-500">
+                    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                        <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                    </svg>
                 </div>
             </div>
         </div>
     </section>
 
     <div class="w-full">
-        <button class="w-full bg-gray-800 text-white py-2 text-sm">Inicio de página</button>
+        <a href="#nav-bar">
+            <button class="w-full bg-gray-800 text-white py-2 text-sm">Inicio de página</button></a>
     </div>
     <footer class="flex-column text-white font-thin text-sm bg-gray-900 pb-4">
         <div class="flex w-full py-6 px-10">
